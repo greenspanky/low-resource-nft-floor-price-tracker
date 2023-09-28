@@ -19,7 +19,7 @@ class FloorPriceWorker(QObject):
         url = f"https://api.opensea.io/api/v1/collection/{collection_name}"
         headers = {
             "accept": "application/json",
-            "X-API-KEY": "d3e3c923c0f0481f9c33e03844e6a787"  # Add your API key here
+            "X-API-KEY": ""  # Add your API key here
         }
 
         try:
